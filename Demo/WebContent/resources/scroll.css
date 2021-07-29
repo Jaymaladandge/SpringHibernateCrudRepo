@@ -1,0 +1,35 @@
+#t1, #t1 tr td {
+	border: 1px solid black;
+}
+
+#t1 tbody {
+	display: block;
+	height: 200px;
+	overflow: auto;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+#t1 thead, #t1 tbody tr {
+	text-align: center;
+	display: table;
+	width: 100%;
+	table-layout: fixed; /* even columns width , fix width of table too*/
+}
+
+#t1 thead {
+	background-color: black;
+	color: white;
+	width: calc(100% - 1em);
+		/* scrollbar is average 1em/16px width, remove it from thead width */
+}
+#t1 th{
+	font-size: 17px;
+	text-align: center;
+}
+
+#t1 {
+	
+	text-align: center;
+	width: 1200px;
+}

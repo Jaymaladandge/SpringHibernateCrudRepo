@@ -1,0 +1,28 @@
+#abc {
+	width: 300px;
+	font-size: 20px;
+}
+
+.big {
+	font-variant: small-caps;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+div h1 {
+	font-size: 40px;
+}
+
+.scrolldiv {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.xyz {
+	height: 300px;
+}
+
+.back {
+	background-image: url("demo.jpg");
+	background-size: cover;
+}
